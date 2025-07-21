@@ -3,5 +3,6 @@
     <string name = "But_1">Btn1</string>
     <string name = "But_2">Btn2</string>
     <string name = "But_3">Btn3</string>
+    <string name = "But_4">Btn4</string>
     <string name = "Stars">***</string>
 </resources>
