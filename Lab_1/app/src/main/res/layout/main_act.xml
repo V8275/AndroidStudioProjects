@@ -7,8 +7,9 @@
     >
 
     <Button
+        android:id="@+id/btn1"
         android:layout_width="match_parent"
-        android:layout_height="222dp"
+        android:layout_height="100dp"
         android:layout_margin="@dimen/margin"
         android:background="@color/Btn_bg"
         android:padding="@dimen/padding"
@@ -17,8 +18,9 @@
         android:textSize="@dimen/textSize" />
 
     <Button
+        android:id="@+id/btn2"
         android:layout_width="match_parent"
-        android:layout_height="222dp"
+        android:layout_height="100dp"
         android:layout_margin="@dimen/margin"
         android:background="@color/Btn_bg"
         android:padding="@dimen/padding"
@@ -27,8 +29,9 @@
         android:textSize="@dimen/textSize" />
 
     <Button
+        android:id="@+id/btn3"
         android:layout_width="match_parent"
-        android:layout_height="222dp"
+        android:layout_height="100dp"
         android:layout_margin="@dimen/margin"
         android:background="@color/Btn_bg"
         android:padding="@dimen/padding"
@@ -37,8 +40,9 @@
         android:textSize="@dimen/textSize" />
 
     <Button
+        android:id="@+id/btn4"
         android:layout_width="match_parent"
-        android:layout_height="222dp"
+        android:layout_height="100dp"
         android:layout_margin="@dimen/margin"
         android:background="@color/Btn_bg"
         android:padding="@dimen/padding"
