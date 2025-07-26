@@ -1,56 +1,92 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
 
     <TextView
         android:id="@+id/textView1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="TextView 1"
         android:textSize="18sp"
-        android:layout_marginBottom="16dp"/>
+        android:background="#C8C8C8"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp"/>
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="TextView 2"
         android:textSize="18sp"
+        android:background="#C8C8C8"
+        android:padding="8dp"
         android:layout_marginBottom="16dp"/>
 
     <Button
         android:id="@+id/buttonLong1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Длинная кнопка 1"
-        android:background="#FFFF00"
-        android:textColor="#00FFFF"
-        android:layout_marginBottom="16dp"/>
+        android:text="Red - Green"
+        android:backgroundTint="#FF0000"
+        android:textColor="#62FF00"
+        android:layout_marginBottom="8dp"/>
 
     <Button
         android:id="@+id/buttonLong2"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Длинная кнопка 2"
-        android:background="#FF00FF"
-        android:textColor="#00FF00"
-        android:layout_marginBottom="16dp"/>
+        android:text="Yellow - Blue"
+        android:backgroundTint="#FFFF00"
+        android:textColor="#002AFF"
+        android:layout_marginBottom="8dp"/>
 
     <Button
-        android:id="@+id/buttonShort1"
-        android:layout_width="wrap_content"
+        android:id="@+id/buttonLong3"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Короткая кнопка 1"
-        android:background="#0000FF"
+        android:text="Black - White"
+        android:backgroundTint="#000000"
+        android:textColor="#FFFFFF"
         android:layout_marginBottom="16dp"/>
 
-    <Button
-        android:id="@+id/buttonShort2"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Короткая кнопка 2"
-        android:background="#FF0000"/>
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="3">
 
+        <Button
+            android:id="@+id/buttonShort1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Red"
+            android:backgroundTint="#FF0000"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"
+            android:layout_marginRight="8dp"/>
+
+        <Button
+            android:id="@+id/buttonShort2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Blue"
+            android:backgroundTint="#0000FF"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"
+            android:layout_marginRight="8dp"/>
+
+        <Button
+            android:id="@+id/buttonShort3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Black"
+            android:backgroundTint="#000000"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"/>
+    </LinearLayout>
 </LinearLayout>
