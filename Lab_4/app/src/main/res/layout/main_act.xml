@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/inputA"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200"
+        android:hint="a"
+        android:inputType="numberDecimal"
+        android:padding="16dp" />
+
+    <EditText
+        android:id="@+id/inputB"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200"
+        android:hint="b"
+        android:inputType="numberDecimal"
+        android:padding="16dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginVertical="16dp">
+
+        <Button
+            android:id="@+id/buttonPlus"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:text="+"
+            android:layout_marginHorizontal="8dp" />
+
+        <Button
+            android:id="@+id/buttonMinus"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:text="-"
+            android:layout_marginHorizontal="8dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginVertical="16dp">
+
+        <Button
+            android:id="@+id/buttonMultiply"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:text="*"
+            android:layout_marginHorizontal="8dp" />
+
+        <Button
+            android:id="@+id/buttonDivide"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:text="/"
+            android:layout_marginHorizontal="8dp" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/outputResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Результат"
+        android:inputType="numberDecimal"
+        android:focusable="false"
+        android:background="@color/teal_200"
+        android:padding="16dp" />
+
+</LinearLayout>
